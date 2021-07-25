@@ -20,7 +20,44 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
 }
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
 
+.container .individual-timeblock{
+  display: flex;
+  justify-content: center; 
+
+}
+.time-span{
+padding: 10px 10px 5px 10px;
+border: 1px solid black;
+margin-right: 5px;
+}
+input{
+  padding: 6px 0px 6px 0px;
+  border: 1px dashed black;
+  outline: none;
+  background: transparent;
+  width: 400px;
+}
+input:focus{
+  background: #F2f2f2;
+  border: 1px dashed grey;
+}
+.saveBtn {
+  border: none;
+   background-color: #000;
+   color: white;
+   padding: 10px;
+   margin-left: 5px;
+ }
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
 .description{
   white-space: pre-wrap;
 }
@@ -57,15 +94,3 @@ textarea{
   color: white;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
