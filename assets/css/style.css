@@ -28,7 +28,7 @@ textarea{
 .container .individual-timeblock{
   display: flex;
   justify-content: center; 
-
+  margin-top: 10px;
 }
 .time-span{
 padding: 10px 10px 5px 10px;
